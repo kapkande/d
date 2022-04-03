@@ -1,0 +1,27 @@
+.conteiner {
+    max-width: 1000px; /* ширина рабочей зоны */
+    margin: auto;  /* автоматическое значение по бокам */
+    } 
+
+.tab1 {
+width: 50%;
+
+}
+
+
+.tab2 {
+width: 50%;
+
+}
+
+
+.hr1 {  margin: 50px 0px; 
+    
+}
+.card {
+    margin: 40px 20px
+
+}
+.rad {
+   
+}
