@@ -10,8 +10,8 @@ body {
     border-radius: 10px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    padding-right: 60%; /* отступ */
     margin: 0px 10% 0px 10%;
+    padding-left: 2%;
 }
 
 .flexcont {
@@ -20,13 +20,18 @@ body {
     justify-content: center;
     /*ecть justify-content: space-between;
     justify-content: space-around; */
-    align-items: flex-start; 
+    align-items: flex-end; 
     /* задаёт флекс блокам расположение выше start ниже end или по центру  */
-    flex-wrap: wrap-reverse;
-/* перескакивание флекс блоков изночально nowrap wrap */
+    flex-wrap:wrap-reverse;
+/* перескакивание флекс блоков изночально nowrap */
 
-
+background-color: rgb(233, 225, 215);
+max-width: 850px;
+padding: 10px 0px;
+margin: 20px auto;
 }
+
+
 
 
 .avatar12  {box-shadow: 10px solid rgb(247, 247, 247);  /* прозрачный борт */
@@ -37,3 +42,11 @@ border-radius: 10px;
 .flexelement2 {
     margin: 0px 10px;
 }
+
+
+
+.hr2  {
+    max-width: 880px;
+    margin: auto;}
+h2 {
+    margin: 4% 0px ; }
