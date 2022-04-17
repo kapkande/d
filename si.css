@@ -12,7 +12,80 @@ body {
     border-bottom-left-radius: 100px;
     margin: 0px 10% 0px 10%;
     padding-left: 2%;
+    
 }
+.end1 {
+    display: block;
+    
+}
+.end1, .block {
+    display: inline-block;
+   
+    width: 50%;
+}
+.block {width: 20px;
+height: 20px;
+background: rgb(37, 37, 22);
+opacity: 0.5;
+cursor: pointer;
+animation: block 2s infinite ease-in-out;
+}
+.block:hover {
+  opacity: 1;
+}
+.ord {
+    animation: block 2s infinite ease-in-out;;
+    width: 20px;
+height: 20px;
+background: rgb(233, 225, 215);
+}
+
+
+@keyframes block {
+    0% {
+      transform: translate(0%);
+      border-radius: 0%;
+      
+    }
+    25% {
+      transform: translate(0%) scale(0.5); 
+      border-radius: 50%;
+    }
+    50% {
+      transform: translate(0%, 0%);
+      border-radius: 0%; 
+    }
+    75% {
+      transform: translate(0%, 0%) scale(0.5); 
+      border-radius: 50%;
+    }
+  }
+
+
+
+
+  @keyframes orb {
+    0% {
+      transform: translate(0%);
+      border-radius: 0%;
+      
+    }
+    25% {
+      transform: translate(0%) scale(0.5); 
+      border-radius: 50%;
+    }
+    50% {
+      transform: translate(0%, 0%);
+      border-radius: 0%; 
+    }
+    75% {
+      transform: translate(0%, 0%) scale(0.5); 
+      border-radius: 50%;
+    }
+  }
+
+
+
 
 .flexcont {
     display: flex;
@@ -50,3 +123,52 @@ border-radius: 10px;
     margin: auto;}
 h2 {
     margin: 4% 0px ; }
+
+
+    .btm {
+      background: rgb(170, 167, 167);
+      color: rgb(0, 0, 0);
+      border: none;
+      cursor: pointer;
+      transition: all .2s;
+      border-radius: 5px;
+      font-family: inherit;
+      display: block;
+      margin: auto;
+      margin-top: 1%;
+      font-size: 16px;
+      }
+    .btm:hover { 
+      color: rgb(247, 247, 247);
+      font-size: 0.9rem;
+      opacity: 0.8;
+  }
+  .btm:active {
+    color: rgb(219, 1, 1);
+}
+
+ 
+ a { color: rgb(0, 0, 0);
+text-decoration: none;
+transition: all .2s;
+}
+a:hover { 
+    color: rgb(247, 247, 247);
+    font-size: 1.2rem;
+}
+
+
+form label {
+display: block;
+text-align: center;
+}
+form input, form textarea {
+  width: 100%;
+  margin: auto;
+  
+  box-sizing: border-box;
+  width: 100%;
+  border: solid transparent 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
